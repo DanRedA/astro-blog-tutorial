@@ -1,5 +1,14 @@
 ---
+const pageTitle = 'About Me';
 
+const identity = {
+  firstName: 'Dan',
+  country: 'South of Heaven',
+  occupation: 'Apprentice',
+  hobbies: ['knot kneeting', 'Gridling', 'cubing'],
+};
+
+const skills = ['brewing', 'bass', 'drinking']
 ---
 <html lang="en">
   <head>
@@ -7,15 +16,25 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content = {Astro.generator} >
-    <title>About Astro</title>
+    <title>{pageTitle}</title>
   </head>
   <body>
     <a href="/">Home</a>
     <a href="/about/">About</a>
     <a href="/blog/">Blog</a>
 
-    <h1>About Astro</h1>
-    <h2>My new Astro About Page</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio minus iste soluta saepe vitae culpa nemo laborum commodi at voluptates facilis quo reiciendis libero recusandae, voluptate quas id. Itaque minus ipsam esse deserunt facilis totam, eius dolor ipsum quidem reprehenderit repudiandae illo impedit vero natus molestias magni magnam maxime quaerat dolores obcaecati!</p>
+    <h1>{pageTitle}</h1>
+    <h2>Some facts about me:</h2>
+    <ul>
+      <li>My name is {identity.firstName}.</li>
+      <li>I live in {identity.country} and I work as an {identity.occupation}.</li>
+      {identity.hobbies.length >= 2 &&
+        <li>Two of my hobbies are: {identity.hobbies[0]} and {identity.hobbies[1]}.</li>
+      }
+    </ul>
+    <h2>My skills are:</h2>
+    <ul>
+      {skills.map((skill) => <li>{skill}</li>)}
+    </ul>
   </body>
 </html>
