@@ -1,16 +1,14 @@
 ---
+layout: ../../layouts/MarkdownPostLayout.astro
 title: My Third Blog Post
 author: Astro Learner
 description: "I had some challenges, but asking in the community really helped!"
 image: 
-    url: "https://astro.build/assets/blog/community-day/cover.jpg"
-    alt: "The word community with a heart."
+    url: "https://cdn.pixabay.com/photo/2023/01/15/22/38/grass-7721259_960_720.jpg"
+    alt: "Hierba, cañas, escarcha."
 pubDate: 2022-07-15
 tags: ["astro", "learning in public", "setbacks", "community"]
 ---
-# My Third Blog Post
-![Hierba, cañas, escarcha](https://cdn.pixabay.com/photo/2023/01/15/22/38/grass-7721259_960_720.jpg)
-
 ## Some Hipster Ipsum...
 
 Godard cold-pressed biodiesel, keytar eiusmod heirloom exercitation selvage. Schlitz asymmetrical narwhal mlkshk, 8-bit commodo vexillologist. Chillwave 90's mollit seitan cred cillum slow-carb quinoa blue bottle fit edison bulb actually officia pok pok 3 wolf moon. Squid nulla sus messenger bag kitsch.

@@ -1,18 +1,14 @@
 ---
+layout: ../../layouts/MarkdownPostLayout.astro
 title: My Second Blog Post
 author: Astro Learner
 description: "After learning some Astro, I couldn't stop!"
 image: 
-    url: "https://astro.build/assets/blog/astro-showcase/astro-showcase-screenshot.jpg"
-    alt: "Thumbnails of websites from the Astro Showcase site."
+    url: "https://cdn.pixabay.com/photo/2022/12/12/21/35/stream-7651969_960_720.jpg"
+    alt: "A beautiful image of nature."
 pubDate: 2022-07-08
 tags: ["astro", "blogging", "learning in public","successes"]
 ---
-# My Second Blog Post
-![A beautiful image of nature](https://cdn.pixabay.com/photo/2022/12/12/21/35/stream-7651969_960_720.jpg)
-
-Published on 2023-03-21
-
 ## Some Text in here...
 
 Artisan meggings pinterest helvetica, freegan butcher distillery chillwave biodiesel meh. Edison bulb street art distillery pug 3 wolf moon bruh air plant solarpunk sustainable shaman gatekeep tacos. YOLO live-edge williamsburg tilde squid kombucha blue bottle cronut. Snackwave mumblecore fingerstache direct trade. Kogi glossier organic mixtape hashtag, occupy mlkshk adaptogen portland. Health goth neutra literally marfa chia.
