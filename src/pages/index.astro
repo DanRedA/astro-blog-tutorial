@@ -1,5 +1,7 @@
 ---
 import '../styles/global.css';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
 ---
 <html lang="en">
   <head>
@@ -10,12 +12,14 @@ import '../styles/global.css';
     <title>Astro</title>
   </head>
   <body>
-    <a href="/">Home</a>
-    <a href="/about/">About</a>
-    <a href="/blog/">Blog</a>
+    <Header />
     
     <h1>Astro</h1>
     <h2>My new Astro Site</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim odit eaque dolor praesentium, officiis ex deserunt at nulla repellat, ut rem ad doloremque voluptatum reiciendis.</p>
+    <Footer />
+    <script>
+      import '../scripts/menu.js'
+    </script>
   </body>
 </html>
